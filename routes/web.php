@@ -8,3 +8,5 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [UserController::class,'home'])->name('home');
+Route::get('/checkout', [UserController::class,'checkout'])->name('checkout');
+
